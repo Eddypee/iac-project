@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "S3 bucket name for Terraform remote state"
   type        = string
-  default     = "tf-backend-class38-iac-project"
+  default     = "iac-project-divine-enterprise-bucket"
 }
 
 variable "lock_table" {
